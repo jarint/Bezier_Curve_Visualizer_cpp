@@ -96,6 +96,14 @@ elseif(UNIX)
 elseif(WIN32)
 endif()
 
+# Copy shaders from assets/shaders/ to build/shaders/
+file(GLOB asset_shader_files assets/shaders/*)
+foreach(file ${asset_shader_files})
+	get_filename_component(name ${file} NAME)
+	configure_file(${file} shaders/${name})
+endforeach()
+
+
 # Compile our main application
 file(GLOB SOURCES
     453-skeleton/*

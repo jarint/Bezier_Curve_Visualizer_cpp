@@ -11,7 +11,10 @@ ShaderProgram::ShaderProgram(const std::string &vertexPath,
                              const std::string &fragmentPath)
     : programID(),
       vertex(AssetPath::Instance()->Get(vertexPath), GL_VERTEX_SHADER),
-      fragment(AssetPath::Instance()->Get(fragmentPath), GL_FRAGMENT_SHADER) {
+      fragment(AssetPath::Instance()->Get(fragmentPath), GL_FRAGMENT_SHADER) 
+      // vertex(vertexPath, GL_VERTEX_SHADER),
+      // fragment(fragmentPath, GL_FRAGMENT_SHADER)
+{
   attach(*this, vertex);
   attach(*this, fragment);
   glLinkProgram(programID);
@@ -53,7 +56,8 @@ bool ShaderProgram::checkAndLogLinkSuccess() const {
     Log::error("SHADER_PROGRAM linking {} + {}:\n{}", vertex.getPath(),
                fragment.getPath(), log.data());
     return false;
-  } else {
+  } 
+  else {
     Log::info("SHADER_PROGRAM successfully compiled and linked {} + {}",
               vertex.getPath(), fragment.getPath());
     return true;
