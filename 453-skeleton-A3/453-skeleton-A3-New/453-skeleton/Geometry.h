@@ -9,6 +9,7 @@
 #include "VertexArray.h"
 #include "VertexBuffer.h"
 
+//#include <GL/glew.h>
 #include <glad/glad.h>
 #include <glm/glm.hpp>
 
@@ -24,21 +25,21 @@ struct CPU_Geometry {
 
 // VAO and two VBOs for storing vertices and texture coordinates, respectively
 class GPU_Geometry {
+
 public:
 	GPU_Geometry();
+
 	// Public interface
-	void bind() {
-		vao.bind();
-	}
+	void bind() { vao.bind(); }
+
 	void setVerts(const std::vector<glm::vec3>& verts);
 	void setCols(const std::vector<glm::vec3>& cols);
-protected:
+
+private:
 	// note: due to how OpenGL works, vao needs to be
-// defined and initialized before the vertex buffers
+	// defined and initialized before the vertex buffers
 	VertexArray vao;
 
 	VertexBuffer vertBuffer;
 	VertexBuffer colorsBuffer;
-private:
-
 };

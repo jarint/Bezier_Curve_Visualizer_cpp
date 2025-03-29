@@ -44,16 +44,16 @@ include_directories(SYSTEM thirdparty/glm-0.9.9.7/)
 
 #-------------------------------------------------------------------------------
 # https://fmt.dev/latest/index.html
+# Turn off building their tests
 set(FMT_TES OFF CACHE BOOL "" FORCE)
 add_subdirectory(thirdparty/fmt-11.0.2)
 set(LIBRARIES ${LIBRARIES} fmt::fmt)
-include_directories(SYSTEM thirdparty/fmt-7.0.3/include)
+include_directories(SYSTEM thirdparty/fmt-11.0.2/include)
 
 #-------------------------------------------------------------------------------
 include_directories(SYSTEM thirdparty/stb-2.26)
 
 #-------------------------------------------------------------------------------
-# https://github.com/ocornut/imgui/releases/tag/v1.91.8
 add_definitions(-DIMGUI_IMPL_OPENGL_LOADER_GLAD=ON)
 include_directories(SYSTEM thirdparty/imgui-1.91.8)
 set(IMGUI_CPP_FILES
@@ -102,7 +102,6 @@ foreach(file ${asset_shader_files})
 	get_filename_component(name ${file} NAME)
 	configure_file(${file} shaders/${name})
 endforeach()
-
 
 # Compile our main application
 file(GLOB SOURCES
