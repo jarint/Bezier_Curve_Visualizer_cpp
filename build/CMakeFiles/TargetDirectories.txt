@@ -1,4 +1,4 @@
-/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles/453-skeleton.dir
+/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles/bezier_visualizer.dir
 /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles/edit_cache.dir
 /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles/rebuild_cache.dir
 /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles/list_install_components.dir

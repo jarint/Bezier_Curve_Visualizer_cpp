@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2
+# Install script for directory: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -34,33 +34,33 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/fmt-11.0.2/libfmtd.a")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfmtd.a" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfmtd.a")
-    execute_process(COMMAND "/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfmtd.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/fmt-11.0.2/libfmt.a")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfmt.a" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfmt.a")
+    execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfmt.a")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/fmt" TYPE FILE FILES
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/args.h"
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/base.h"
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/chrono.h"
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/color.h"
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/compile.h"
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/core.h"
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/format.h"
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/format-inl.h"
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/os.h"
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/ostream.h"
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/printf.h"
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/ranges.h"
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/std.h"
-    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include/fmt/xchar.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/args.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/base.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/chrono.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/color.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/compile.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/core.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/format.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/format-inl.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/os.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/ostream.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/printf.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/ranges.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/std.h"
+    "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include/fmt/xchar.h"
     )
 endif()
 
@@ -89,8 +89,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/fmt" TYPE FILE FILES "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/fmt-11.0.2/CMakeFiles/Export/b834597d9b1628ff12ae4314c3a2e4b8/fmt-targets.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/fmt" TYPE FILE FILES "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/fmt-11.0.2/CMakeFiles/Export/b834597d9b1628ff12ae4314c3a2e4b8/fmt-targets-debug.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/fmt" TYPE FILE FILES "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/fmt-11.0.2/CMakeFiles/Export/b834597d9b1628ff12ae4314c3a2e4b8/fmt-targets-noconfig.cmake")
   endif()
 endif()
 

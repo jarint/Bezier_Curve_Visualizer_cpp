@@ -57,7 +57,7 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New
+CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build
@@ -162,17 +162,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 453-skeleton
+# Target rules for targets named bezier_visualizer
 
 # Build rule for target.
-453-skeleton: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 453-skeleton
-.PHONY : 453-skeleton
+bezier_visualizer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bezier_visualizer
+.PHONY : bezier_visualizer
 
 # fast build rule for target.
-453-skeleton/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/build
-.PHONY : 453-skeleton/fast
+bezier_visualizer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/build
+.PHONY : bezier_visualizer/fast
 
 #=============================================================================
 # Target rules for targets named glad
@@ -239,324 +239,324 @@ fmt/fast:
 	$(MAKE) $(MAKESILENT) -f thirdparty/fmt-11.0.2/CMakeFiles/fmt.dir/build.make thirdparty/fmt-11.0.2/CMakeFiles/fmt.dir/build
 .PHONY : fmt/fast
 
-453-skeleton/AssetPath.o: 453-skeleton/AssetPath.cpp.o
-.PHONY : 453-skeleton/AssetPath.o
+src/AssetPath.o: src/AssetPath.cpp.o
+.PHONY : src/AssetPath.o
 
 # target to build an object file
-453-skeleton/AssetPath.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/AssetPath.cpp.o
-.PHONY : 453-skeleton/AssetPath.cpp.o
+src/AssetPath.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/AssetPath.cpp.o
+.PHONY : src/AssetPath.cpp.o
 
-453-skeleton/AssetPath.i: 453-skeleton/AssetPath.cpp.i
-.PHONY : 453-skeleton/AssetPath.i
+src/AssetPath.i: src/AssetPath.cpp.i
+.PHONY : src/AssetPath.i
 
 # target to preprocess a source file
-453-skeleton/AssetPath.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/AssetPath.cpp.i
-.PHONY : 453-skeleton/AssetPath.cpp.i
+src/AssetPath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/AssetPath.cpp.i
+.PHONY : src/AssetPath.cpp.i
 
-453-skeleton/AssetPath.s: 453-skeleton/AssetPath.cpp.s
-.PHONY : 453-skeleton/AssetPath.s
+src/AssetPath.s: src/AssetPath.cpp.s
+.PHONY : src/AssetPath.s
 
 # target to generate assembly for a file
-453-skeleton/AssetPath.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/AssetPath.cpp.s
-.PHONY : 453-skeleton/AssetPath.cpp.s
+src/AssetPath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/AssetPath.cpp.s
+.PHONY : src/AssetPath.cpp.s
 
-453-skeleton/CurveControl.o: 453-skeleton/CurveControl.cpp.o
-.PHONY : 453-skeleton/CurveControl.o
+src/CurveControl.o: src/CurveControl.cpp.o
+.PHONY : src/CurveControl.o
 
 # target to build an object file
-453-skeleton/CurveControl.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/CurveControl.cpp.o
-.PHONY : 453-skeleton/CurveControl.cpp.o
+src/CurveControl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/CurveControl.cpp.o
+.PHONY : src/CurveControl.cpp.o
 
-453-skeleton/CurveControl.i: 453-skeleton/CurveControl.cpp.i
-.PHONY : 453-skeleton/CurveControl.i
+src/CurveControl.i: src/CurveControl.cpp.i
+.PHONY : src/CurveControl.i
 
 # target to preprocess a source file
-453-skeleton/CurveControl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/CurveControl.cpp.i
-.PHONY : 453-skeleton/CurveControl.cpp.i
+src/CurveControl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/CurveControl.cpp.i
+.PHONY : src/CurveControl.cpp.i
 
-453-skeleton/CurveControl.s: 453-skeleton/CurveControl.cpp.s
-.PHONY : 453-skeleton/CurveControl.s
+src/CurveControl.s: src/CurveControl.cpp.s
+.PHONY : src/CurveControl.s
 
 # target to generate assembly for a file
-453-skeleton/CurveControl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/CurveControl.cpp.s
-.PHONY : 453-skeleton/CurveControl.cpp.s
+src/CurveControl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/CurveControl.cpp.s
+.PHONY : src/CurveControl.cpp.s
 
-453-skeleton/GLDebug.o: 453-skeleton/GLDebug.cpp.o
-.PHONY : 453-skeleton/GLDebug.o
+src/GLDebug.o: src/GLDebug.cpp.o
+.PHONY : src/GLDebug.o
 
 # target to build an object file
-453-skeleton/GLDebug.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/GLDebug.cpp.o
-.PHONY : 453-skeleton/GLDebug.cpp.o
+src/GLDebug.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/GLDebug.cpp.o
+.PHONY : src/GLDebug.cpp.o
 
-453-skeleton/GLDebug.i: 453-skeleton/GLDebug.cpp.i
-.PHONY : 453-skeleton/GLDebug.i
+src/GLDebug.i: src/GLDebug.cpp.i
+.PHONY : src/GLDebug.i
 
 # target to preprocess a source file
-453-skeleton/GLDebug.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/GLDebug.cpp.i
-.PHONY : 453-skeleton/GLDebug.cpp.i
+src/GLDebug.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/GLDebug.cpp.i
+.PHONY : src/GLDebug.cpp.i
 
-453-skeleton/GLDebug.s: 453-skeleton/GLDebug.cpp.s
-.PHONY : 453-skeleton/GLDebug.s
+src/GLDebug.s: src/GLDebug.cpp.s
+.PHONY : src/GLDebug.s
 
 # target to generate assembly for a file
-453-skeleton/GLDebug.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/GLDebug.cpp.s
-.PHONY : 453-skeleton/GLDebug.cpp.s
+src/GLDebug.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/GLDebug.cpp.s
+.PHONY : src/GLDebug.cpp.s
 
-453-skeleton/GLHandles.o: 453-skeleton/GLHandles.cpp.o
-.PHONY : 453-skeleton/GLHandles.o
+src/GLHandles.o: src/GLHandles.cpp.o
+.PHONY : src/GLHandles.o
 
 # target to build an object file
-453-skeleton/GLHandles.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/GLHandles.cpp.o
-.PHONY : 453-skeleton/GLHandles.cpp.o
+src/GLHandles.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/GLHandles.cpp.o
+.PHONY : src/GLHandles.cpp.o
 
-453-skeleton/GLHandles.i: 453-skeleton/GLHandles.cpp.i
-.PHONY : 453-skeleton/GLHandles.i
+src/GLHandles.i: src/GLHandles.cpp.i
+.PHONY : src/GLHandles.i
 
 # target to preprocess a source file
-453-skeleton/GLHandles.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/GLHandles.cpp.i
-.PHONY : 453-skeleton/GLHandles.cpp.i
+src/GLHandles.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/GLHandles.cpp.i
+.PHONY : src/GLHandles.cpp.i
 
-453-skeleton/GLHandles.s: 453-skeleton/GLHandles.cpp.s
-.PHONY : 453-skeleton/GLHandles.s
+src/GLHandles.s: src/GLHandles.cpp.s
+.PHONY : src/GLHandles.s
 
 # target to generate assembly for a file
-453-skeleton/GLHandles.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/GLHandles.cpp.s
-.PHONY : 453-skeleton/GLHandles.cpp.s
+src/GLHandles.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/GLHandles.cpp.s
+.PHONY : src/GLHandles.cpp.s
 
-453-skeleton/Geometry.o: 453-skeleton/Geometry.cpp.o
-.PHONY : 453-skeleton/Geometry.o
+src/Geometry.o: src/Geometry.cpp.o
+.PHONY : src/Geometry.o
 
 # target to build an object file
-453-skeleton/Geometry.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Geometry.cpp.o
-.PHONY : 453-skeleton/Geometry.cpp.o
+src/Geometry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Geometry.cpp.o
+.PHONY : src/Geometry.cpp.o
 
-453-skeleton/Geometry.i: 453-skeleton/Geometry.cpp.i
-.PHONY : 453-skeleton/Geometry.i
+src/Geometry.i: src/Geometry.cpp.i
+.PHONY : src/Geometry.i
 
 # target to preprocess a source file
-453-skeleton/Geometry.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Geometry.cpp.i
-.PHONY : 453-skeleton/Geometry.cpp.i
+src/Geometry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Geometry.cpp.i
+.PHONY : src/Geometry.cpp.i
 
-453-skeleton/Geometry.s: 453-skeleton/Geometry.cpp.s
-.PHONY : 453-skeleton/Geometry.s
+src/Geometry.s: src/Geometry.cpp.s
+.PHONY : src/Geometry.s
 
 # target to generate assembly for a file
-453-skeleton/Geometry.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Geometry.cpp.s
-.PHONY : 453-skeleton/Geometry.cpp.s
+src/Geometry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Geometry.cpp.s
+.PHONY : src/Geometry.cpp.s
 
-453-skeleton/Panel.o: 453-skeleton/Panel.cpp.o
-.PHONY : 453-skeleton/Panel.o
+src/Panel.o: src/Panel.cpp.o
+.PHONY : src/Panel.o
 
 # target to build an object file
-453-skeleton/Panel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Panel.cpp.o
-.PHONY : 453-skeleton/Panel.cpp.o
+src/Panel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Panel.cpp.o
+.PHONY : src/Panel.cpp.o
 
-453-skeleton/Panel.i: 453-skeleton/Panel.cpp.i
-.PHONY : 453-skeleton/Panel.i
+src/Panel.i: src/Panel.cpp.i
+.PHONY : src/Panel.i
 
 # target to preprocess a source file
-453-skeleton/Panel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Panel.cpp.i
-.PHONY : 453-skeleton/Panel.cpp.i
+src/Panel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Panel.cpp.i
+.PHONY : src/Panel.cpp.i
 
-453-skeleton/Panel.s: 453-skeleton/Panel.cpp.s
-.PHONY : 453-skeleton/Panel.s
+src/Panel.s: src/Panel.cpp.s
+.PHONY : src/Panel.s
 
 # target to generate assembly for a file
-453-skeleton/Panel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Panel.cpp.s
-.PHONY : 453-skeleton/Panel.cpp.s
+src/Panel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Panel.cpp.s
+.PHONY : src/Panel.cpp.s
 
-453-skeleton/Shader.o: 453-skeleton/Shader.cpp.o
-.PHONY : 453-skeleton/Shader.o
+src/Shader.o: src/Shader.cpp.o
+.PHONY : src/Shader.o
 
 # target to build an object file
-453-skeleton/Shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Shader.cpp.o
-.PHONY : 453-skeleton/Shader.cpp.o
+src/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Shader.cpp.o
+.PHONY : src/Shader.cpp.o
 
-453-skeleton/Shader.i: 453-skeleton/Shader.cpp.i
-.PHONY : 453-skeleton/Shader.i
+src/Shader.i: src/Shader.cpp.i
+.PHONY : src/Shader.i
 
 # target to preprocess a source file
-453-skeleton/Shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Shader.cpp.i
-.PHONY : 453-skeleton/Shader.cpp.i
+src/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Shader.cpp.i
+.PHONY : src/Shader.cpp.i
 
-453-skeleton/Shader.s: 453-skeleton/Shader.cpp.s
-.PHONY : 453-skeleton/Shader.s
+src/Shader.s: src/Shader.cpp.s
+.PHONY : src/Shader.s
 
 # target to generate assembly for a file
-453-skeleton/Shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Shader.cpp.s
-.PHONY : 453-skeleton/Shader.cpp.s
+src/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Shader.cpp.s
+.PHONY : src/Shader.cpp.s
 
-453-skeleton/ShaderProgram.o: 453-skeleton/ShaderProgram.cpp.o
-.PHONY : 453-skeleton/ShaderProgram.o
+src/ShaderProgram.o: src/ShaderProgram.cpp.o
+.PHONY : src/ShaderProgram.o
 
 # target to build an object file
-453-skeleton/ShaderProgram.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/ShaderProgram.cpp.o
-.PHONY : 453-skeleton/ShaderProgram.cpp.o
+src/ShaderProgram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/ShaderProgram.cpp.o
+.PHONY : src/ShaderProgram.cpp.o
 
-453-skeleton/ShaderProgram.i: 453-skeleton/ShaderProgram.cpp.i
-.PHONY : 453-skeleton/ShaderProgram.i
+src/ShaderProgram.i: src/ShaderProgram.cpp.i
+.PHONY : src/ShaderProgram.i
 
 # target to preprocess a source file
-453-skeleton/ShaderProgram.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/ShaderProgram.cpp.i
-.PHONY : 453-skeleton/ShaderProgram.cpp.i
+src/ShaderProgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/ShaderProgram.cpp.i
+.PHONY : src/ShaderProgram.cpp.i
 
-453-skeleton/ShaderProgram.s: 453-skeleton/ShaderProgram.cpp.s
-.PHONY : 453-skeleton/ShaderProgram.s
+src/ShaderProgram.s: src/ShaderProgram.cpp.s
+.PHONY : src/ShaderProgram.s
 
 # target to generate assembly for a file
-453-skeleton/ShaderProgram.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/ShaderProgram.cpp.s
-.PHONY : 453-skeleton/ShaderProgram.cpp.s
+src/ShaderProgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/ShaderProgram.cpp.s
+.PHONY : src/ShaderProgram.cpp.s
 
-453-skeleton/Texture.o: 453-skeleton/Texture.cpp.o
-.PHONY : 453-skeleton/Texture.o
+src/Texture.o: src/Texture.cpp.o
+.PHONY : src/Texture.o
 
 # target to build an object file
-453-skeleton/Texture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Texture.cpp.o
-.PHONY : 453-skeleton/Texture.cpp.o
+src/Texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Texture.cpp.o
+.PHONY : src/Texture.cpp.o
 
-453-skeleton/Texture.i: 453-skeleton/Texture.cpp.i
-.PHONY : 453-skeleton/Texture.i
+src/Texture.i: src/Texture.cpp.i
+.PHONY : src/Texture.i
 
 # target to preprocess a source file
-453-skeleton/Texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Texture.cpp.i
-.PHONY : 453-skeleton/Texture.cpp.i
+src/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Texture.cpp.i
+.PHONY : src/Texture.cpp.i
 
-453-skeleton/Texture.s: 453-skeleton/Texture.cpp.s
-.PHONY : 453-skeleton/Texture.s
+src/Texture.s: src/Texture.cpp.s
+.PHONY : src/Texture.s
 
 # target to generate assembly for a file
-453-skeleton/Texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Texture.cpp.s
-.PHONY : 453-skeleton/Texture.cpp.s
+src/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Texture.cpp.s
+.PHONY : src/Texture.cpp.s
 
-453-skeleton/VertexArray.o: 453-skeleton/VertexArray.cpp.o
-.PHONY : 453-skeleton/VertexArray.o
+src/VertexArray.o: src/VertexArray.cpp.o
+.PHONY : src/VertexArray.o
 
 # target to build an object file
-453-skeleton/VertexArray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/VertexArray.cpp.o
-.PHONY : 453-skeleton/VertexArray.cpp.o
+src/VertexArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/VertexArray.cpp.o
+.PHONY : src/VertexArray.cpp.o
 
-453-skeleton/VertexArray.i: 453-skeleton/VertexArray.cpp.i
-.PHONY : 453-skeleton/VertexArray.i
+src/VertexArray.i: src/VertexArray.cpp.i
+.PHONY : src/VertexArray.i
 
 # target to preprocess a source file
-453-skeleton/VertexArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/VertexArray.cpp.i
-.PHONY : 453-skeleton/VertexArray.cpp.i
+src/VertexArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/VertexArray.cpp.i
+.PHONY : src/VertexArray.cpp.i
 
-453-skeleton/VertexArray.s: 453-skeleton/VertexArray.cpp.s
-.PHONY : 453-skeleton/VertexArray.s
+src/VertexArray.s: src/VertexArray.cpp.s
+.PHONY : src/VertexArray.s
 
 # target to generate assembly for a file
-453-skeleton/VertexArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/VertexArray.cpp.s
-.PHONY : 453-skeleton/VertexArray.cpp.s
+src/VertexArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/VertexArray.cpp.s
+.PHONY : src/VertexArray.cpp.s
 
-453-skeleton/VertexBuffer.o: 453-skeleton/VertexBuffer.cpp.o
-.PHONY : 453-skeleton/VertexBuffer.o
+src/VertexBuffer.o: src/VertexBuffer.cpp.o
+.PHONY : src/VertexBuffer.o
 
 # target to build an object file
-453-skeleton/VertexBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/VertexBuffer.cpp.o
-.PHONY : 453-skeleton/VertexBuffer.cpp.o
+src/VertexBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/VertexBuffer.cpp.o
+.PHONY : src/VertexBuffer.cpp.o
 
-453-skeleton/VertexBuffer.i: 453-skeleton/VertexBuffer.cpp.i
-.PHONY : 453-skeleton/VertexBuffer.i
+src/VertexBuffer.i: src/VertexBuffer.cpp.i
+.PHONY : src/VertexBuffer.i
 
 # target to preprocess a source file
-453-skeleton/VertexBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/VertexBuffer.cpp.i
-.PHONY : 453-skeleton/VertexBuffer.cpp.i
+src/VertexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/VertexBuffer.cpp.i
+.PHONY : src/VertexBuffer.cpp.i
 
-453-skeleton/VertexBuffer.s: 453-skeleton/VertexBuffer.cpp.s
-.PHONY : 453-skeleton/VertexBuffer.s
+src/VertexBuffer.s: src/VertexBuffer.cpp.s
+.PHONY : src/VertexBuffer.s
 
 # target to generate assembly for a file
-453-skeleton/VertexBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/VertexBuffer.cpp.s
-.PHONY : 453-skeleton/VertexBuffer.cpp.s
+src/VertexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/VertexBuffer.cpp.s
+.PHONY : src/VertexBuffer.cpp.s
 
-453-skeleton/Window.o: 453-skeleton/Window.cpp.o
-.PHONY : 453-skeleton/Window.o
+src/Window.o: src/Window.cpp.o
+.PHONY : src/Window.o
 
 # target to build an object file
-453-skeleton/Window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Window.cpp.o
-.PHONY : 453-skeleton/Window.cpp.o
+src/Window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Window.cpp.o
+.PHONY : src/Window.cpp.o
 
-453-skeleton/Window.i: 453-skeleton/Window.cpp.i
-.PHONY : 453-skeleton/Window.i
+src/Window.i: src/Window.cpp.i
+.PHONY : src/Window.i
 
 # target to preprocess a source file
-453-skeleton/Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Window.cpp.i
-.PHONY : 453-skeleton/Window.cpp.i
+src/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Window.cpp.i
+.PHONY : src/Window.cpp.i
 
-453-skeleton/Window.s: 453-skeleton/Window.cpp.s
-.PHONY : 453-skeleton/Window.s
+src/Window.s: src/Window.cpp.s
+.PHONY : src/Window.s
 
 # target to generate assembly for a file
-453-skeleton/Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/Window.cpp.s
-.PHONY : 453-skeleton/Window.cpp.s
+src/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/Window.cpp.s
+.PHONY : src/Window.cpp.s
 
-453-skeleton/main.o: 453-skeleton/main.cpp.o
-.PHONY : 453-skeleton/main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-453-skeleton/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/main.cpp.o
-.PHONY : 453-skeleton/main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-453-skeleton/main.i: 453-skeleton/main.cpp.i
-.PHONY : 453-skeleton/main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-453-skeleton/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/main.cpp.i
-.PHONY : 453-skeleton/main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-453-skeleton/main.s: 453-skeleton/main.cpp.s
-.PHONY : 453-skeleton/main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-453-skeleton/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/453-skeleton/main.cpp.s
-.PHONY : 453-skeleton/main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.o: thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.o
 .PHONY : thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.o
 
 # target to build an object file
 thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.o
 .PHONY : thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.o
 
 thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.i: thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.i
@@ -564,7 +564,7 @@ thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.i: thirdparty/imgui-1.91.8/back
 
 # target to preprocess a source file
 thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.i
 .PHONY : thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.i
 
 thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.s: thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.s
@@ -572,7 +572,7 @@ thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.s: thirdparty/imgui-1.91.8/back
 
 # target to generate assembly for a file
 thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.s
 .PHONY : thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.cpp.s
 
 thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.o: thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.o
@@ -580,7 +580,7 @@ thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.o: thirdparty/imgui-1.91.8/b
 
 # target to build an object file
 thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.o
 .PHONY : thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.o
 
 thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.i: thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.i
@@ -588,7 +588,7 @@ thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.i: thirdparty/imgui-1.91.8/b
 
 # target to preprocess a source file
 thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.i
 .PHONY : thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.i
 
 thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.s: thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.s
@@ -596,7 +596,7 @@ thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.s: thirdparty/imgui-1.91.8/b
 
 # target to generate assembly for a file
 thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.s
 .PHONY : thirdparty/imgui-1.91.8/backends/imgui_impl_opengl3.cpp.s
 
 thirdparty/imgui-1.91.8/imgui.o: thirdparty/imgui-1.91.8/imgui.cpp.o
@@ -604,7 +604,7 @@ thirdparty/imgui-1.91.8/imgui.o: thirdparty/imgui-1.91.8/imgui.cpp.o
 
 # target to build an object file
 thirdparty/imgui-1.91.8/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui.cpp.o
 .PHONY : thirdparty/imgui-1.91.8/imgui.cpp.o
 
 thirdparty/imgui-1.91.8/imgui.i: thirdparty/imgui-1.91.8/imgui.cpp.i
@@ -612,7 +612,7 @@ thirdparty/imgui-1.91.8/imgui.i: thirdparty/imgui-1.91.8/imgui.cpp.i
 
 # target to preprocess a source file
 thirdparty/imgui-1.91.8/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui.cpp.i
 .PHONY : thirdparty/imgui-1.91.8/imgui.cpp.i
 
 thirdparty/imgui-1.91.8/imgui.s: thirdparty/imgui-1.91.8/imgui.cpp.s
@@ -620,7 +620,7 @@ thirdparty/imgui-1.91.8/imgui.s: thirdparty/imgui-1.91.8/imgui.cpp.s
 
 # target to generate assembly for a file
 thirdparty/imgui-1.91.8/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui.cpp.s
 .PHONY : thirdparty/imgui-1.91.8/imgui.cpp.s
 
 thirdparty/imgui-1.91.8/imgui_demo.o: thirdparty/imgui-1.91.8/imgui_demo.cpp.o
@@ -628,7 +628,7 @@ thirdparty/imgui-1.91.8/imgui_demo.o: thirdparty/imgui-1.91.8/imgui_demo.cpp.o
 
 # target to build an object file
 thirdparty/imgui-1.91.8/imgui_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui_demo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui_demo.cpp.o
 .PHONY : thirdparty/imgui-1.91.8/imgui_demo.cpp.o
 
 thirdparty/imgui-1.91.8/imgui_demo.i: thirdparty/imgui-1.91.8/imgui_demo.cpp.i
@@ -636,7 +636,7 @@ thirdparty/imgui-1.91.8/imgui_demo.i: thirdparty/imgui-1.91.8/imgui_demo.cpp.i
 
 # target to preprocess a source file
 thirdparty/imgui-1.91.8/imgui_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui_demo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui_demo.cpp.i
 .PHONY : thirdparty/imgui-1.91.8/imgui_demo.cpp.i
 
 thirdparty/imgui-1.91.8/imgui_demo.s: thirdparty/imgui-1.91.8/imgui_demo.cpp.s
@@ -644,7 +644,7 @@ thirdparty/imgui-1.91.8/imgui_demo.s: thirdparty/imgui-1.91.8/imgui_demo.cpp.s
 
 # target to generate assembly for a file
 thirdparty/imgui-1.91.8/imgui_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui_demo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui_demo.cpp.s
 .PHONY : thirdparty/imgui-1.91.8/imgui_demo.cpp.s
 
 thirdparty/imgui-1.91.8/imgui_draw.o: thirdparty/imgui-1.91.8/imgui_draw.cpp.o
@@ -652,7 +652,7 @@ thirdparty/imgui-1.91.8/imgui_draw.o: thirdparty/imgui-1.91.8/imgui_draw.cpp.o
 
 # target to build an object file
 thirdparty/imgui-1.91.8/imgui_draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui_draw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui_draw.cpp.o
 .PHONY : thirdparty/imgui-1.91.8/imgui_draw.cpp.o
 
 thirdparty/imgui-1.91.8/imgui_draw.i: thirdparty/imgui-1.91.8/imgui_draw.cpp.i
@@ -660,7 +660,7 @@ thirdparty/imgui-1.91.8/imgui_draw.i: thirdparty/imgui-1.91.8/imgui_draw.cpp.i
 
 # target to preprocess a source file
 thirdparty/imgui-1.91.8/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui_draw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui_draw.cpp.i
 .PHONY : thirdparty/imgui-1.91.8/imgui_draw.cpp.i
 
 thirdparty/imgui-1.91.8/imgui_draw.s: thirdparty/imgui-1.91.8/imgui_draw.cpp.s
@@ -668,7 +668,7 @@ thirdparty/imgui-1.91.8/imgui_draw.s: thirdparty/imgui-1.91.8/imgui_draw.cpp.s
 
 # target to generate assembly for a file
 thirdparty/imgui-1.91.8/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui_draw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui_draw.cpp.s
 .PHONY : thirdparty/imgui-1.91.8/imgui_draw.cpp.s
 
 thirdparty/imgui-1.91.8/imgui_tables.o: thirdparty/imgui-1.91.8/imgui_tables.cpp.o
@@ -676,7 +676,7 @@ thirdparty/imgui-1.91.8/imgui_tables.o: thirdparty/imgui-1.91.8/imgui_tables.cpp
 
 # target to build an object file
 thirdparty/imgui-1.91.8/imgui_tables.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui_tables.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui_tables.cpp.o
 .PHONY : thirdparty/imgui-1.91.8/imgui_tables.cpp.o
 
 thirdparty/imgui-1.91.8/imgui_tables.i: thirdparty/imgui-1.91.8/imgui_tables.cpp.i
@@ -684,7 +684,7 @@ thirdparty/imgui-1.91.8/imgui_tables.i: thirdparty/imgui-1.91.8/imgui_tables.cpp
 
 # target to preprocess a source file
 thirdparty/imgui-1.91.8/imgui_tables.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui_tables.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui_tables.cpp.i
 .PHONY : thirdparty/imgui-1.91.8/imgui_tables.cpp.i
 
 thirdparty/imgui-1.91.8/imgui_tables.s: thirdparty/imgui-1.91.8/imgui_tables.cpp.s
@@ -692,7 +692,7 @@ thirdparty/imgui-1.91.8/imgui_tables.s: thirdparty/imgui-1.91.8/imgui_tables.cpp
 
 # target to generate assembly for a file
 thirdparty/imgui-1.91.8/imgui_tables.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui_tables.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui_tables.cpp.s
 .PHONY : thirdparty/imgui-1.91.8/imgui_tables.cpp.s
 
 thirdparty/imgui-1.91.8/imgui_widgets.o: thirdparty/imgui-1.91.8/imgui_widgets.cpp.o
@@ -700,7 +700,7 @@ thirdparty/imgui-1.91.8/imgui_widgets.o: thirdparty/imgui-1.91.8/imgui_widgets.c
 
 # target to build an object file
 thirdparty/imgui-1.91.8/imgui_widgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui_widgets.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui_widgets.cpp.o
 .PHONY : thirdparty/imgui-1.91.8/imgui_widgets.cpp.o
 
 thirdparty/imgui-1.91.8/imgui_widgets.i: thirdparty/imgui-1.91.8/imgui_widgets.cpp.i
@@ -708,7 +708,7 @@ thirdparty/imgui-1.91.8/imgui_widgets.i: thirdparty/imgui-1.91.8/imgui_widgets.c
 
 # target to preprocess a source file
 thirdparty/imgui-1.91.8/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui_widgets.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui_widgets.cpp.i
 .PHONY : thirdparty/imgui-1.91.8/imgui_widgets.cpp.i
 
 thirdparty/imgui-1.91.8/imgui_widgets.s: thirdparty/imgui-1.91.8/imgui_widgets.cpp.s
@@ -716,7 +716,7 @@ thirdparty/imgui-1.91.8/imgui_widgets.s: thirdparty/imgui-1.91.8/imgui_widgets.c
 
 # target to generate assembly for a file
 thirdparty/imgui-1.91.8/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/imgui_widgets.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/imgui_widgets.cpp.s
 .PHONY : thirdparty/imgui-1.91.8/imgui_widgets.cpp.s
 
 thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.o: thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.o
@@ -724,7 +724,7 @@ thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.o: thirdparty/imgui-1.91.8/misc/cp
 
 # target to build an object file
 thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.o
 .PHONY : thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.o
 
 thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.i: thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.i
@@ -732,7 +732,7 @@ thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.i: thirdparty/imgui-1.91.8/misc/cp
 
 # target to preprocess a source file
 thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.i
 .PHONY : thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.i
 
 thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.s: thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.s
@@ -740,7 +740,7 @@ thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.s: thirdparty/imgui-1.91.8/misc/cp
 
 # target to generate assembly for a file
 thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.s
 .PHONY : thirdparty/imgui-1.91.8/misc/cpp/imgui_stdlib.cpp.s
 
 # Help Target
@@ -757,49 +757,49 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
 	@echo "... update_mappings"
-	@echo "... 453-skeleton"
+	@echo "... bezier_visualizer"
 	@echo "... fmt"
 	@echo "... glad"
 	@echo "... glfw"
-	@echo "... 453-skeleton/AssetPath.o"
-	@echo "... 453-skeleton/AssetPath.i"
-	@echo "... 453-skeleton/AssetPath.s"
-	@echo "... 453-skeleton/CurveControl.o"
-	@echo "... 453-skeleton/CurveControl.i"
-	@echo "... 453-skeleton/CurveControl.s"
-	@echo "... 453-skeleton/GLDebug.o"
-	@echo "... 453-skeleton/GLDebug.i"
-	@echo "... 453-skeleton/GLDebug.s"
-	@echo "... 453-skeleton/GLHandles.o"
-	@echo "... 453-skeleton/GLHandles.i"
-	@echo "... 453-skeleton/GLHandles.s"
-	@echo "... 453-skeleton/Geometry.o"
-	@echo "... 453-skeleton/Geometry.i"
-	@echo "... 453-skeleton/Geometry.s"
-	@echo "... 453-skeleton/Panel.o"
-	@echo "... 453-skeleton/Panel.i"
-	@echo "... 453-skeleton/Panel.s"
-	@echo "... 453-skeleton/Shader.o"
-	@echo "... 453-skeleton/Shader.i"
-	@echo "... 453-skeleton/Shader.s"
-	@echo "... 453-skeleton/ShaderProgram.o"
-	@echo "... 453-skeleton/ShaderProgram.i"
-	@echo "... 453-skeleton/ShaderProgram.s"
-	@echo "... 453-skeleton/Texture.o"
-	@echo "... 453-skeleton/Texture.i"
-	@echo "... 453-skeleton/Texture.s"
-	@echo "... 453-skeleton/VertexArray.o"
-	@echo "... 453-skeleton/VertexArray.i"
-	@echo "... 453-skeleton/VertexArray.s"
-	@echo "... 453-skeleton/VertexBuffer.o"
-	@echo "... 453-skeleton/VertexBuffer.i"
-	@echo "... 453-skeleton/VertexBuffer.s"
-	@echo "... 453-skeleton/Window.o"
-	@echo "... 453-skeleton/Window.i"
-	@echo "... 453-skeleton/Window.s"
-	@echo "... 453-skeleton/main.o"
-	@echo "... 453-skeleton/main.i"
-	@echo "... 453-skeleton/main.s"
+	@echo "... src/AssetPath.o"
+	@echo "... src/AssetPath.i"
+	@echo "... src/AssetPath.s"
+	@echo "... src/CurveControl.o"
+	@echo "... src/CurveControl.i"
+	@echo "... src/CurveControl.s"
+	@echo "... src/GLDebug.o"
+	@echo "... src/GLDebug.i"
+	@echo "... src/GLDebug.s"
+	@echo "... src/GLHandles.o"
+	@echo "... src/GLHandles.i"
+	@echo "... src/GLHandles.s"
+	@echo "... src/Geometry.o"
+	@echo "... src/Geometry.i"
+	@echo "... src/Geometry.s"
+	@echo "... src/Panel.o"
+	@echo "... src/Panel.i"
+	@echo "... src/Panel.s"
+	@echo "... src/Shader.o"
+	@echo "... src/Shader.i"
+	@echo "... src/Shader.s"
+	@echo "... src/ShaderProgram.o"
+	@echo "... src/ShaderProgram.i"
+	@echo "... src/ShaderProgram.s"
+	@echo "... src/Texture.o"
+	@echo "... src/Texture.i"
+	@echo "... src/Texture.s"
+	@echo "... src/VertexArray.o"
+	@echo "... src/VertexArray.i"
+	@echo "... src/VertexArray.s"
+	@echo "... src/VertexBuffer.o"
+	@echo "... src/VertexBuffer.i"
+	@echo "... src/VertexBuffer.s"
+	@echo "... src/Window.o"
+	@echo "... src/Window.i"
+	@echo "... src/Window.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.o"
 	@echo "... thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.i"
 	@echo "... thirdparty/imgui-1.91.8/backends/imgui_impl_glfw.s"

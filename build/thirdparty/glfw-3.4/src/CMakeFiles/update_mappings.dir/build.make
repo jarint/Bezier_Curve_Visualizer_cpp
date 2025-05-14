@@ -53,7 +53,7 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New
+CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build
@@ -68,7 +68,7 @@ include thirdparty/glfw-3.4/src/CMakeFiles/update_mappings.dir/progress.make
 
 thirdparty/glfw-3.4/src/CMakeFiles/update_mappings:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src && /opt/homebrew/bin/cmake -P /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src && /opt/homebrew/bin/cmake -P /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 thirdparty/glfw-3.4/src/CMakeFiles/update_mappings.dir/codegen:
 .PHONY : thirdparty/glfw-3.4/src/CMakeFiles/update_mappings.dir/codegen
@@ -86,6 +86,6 @@ thirdparty/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean:
 .PHONY : thirdparty/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean
 
 thirdparty/glfw-3.4/src/CMakeFiles/update_mappings.dir/depend:
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : thirdparty/glfw-3.4/src/CMakeFiles/update_mappings.dir/depend
 

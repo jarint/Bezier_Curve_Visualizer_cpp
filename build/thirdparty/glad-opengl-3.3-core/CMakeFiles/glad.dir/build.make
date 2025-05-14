@@ -53,7 +53,7 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New
+CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build
@@ -73,18 +73,18 @@ thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/codegen:
 .PHONY : thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/codegen
 
 thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/src/glad.c.o: thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/flags.make
-thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/src/glad.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glad-opengl-3.3-core/src/glad.c
+thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/src/glad.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glad-opengl-3.3-core/src/glad.c
 thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/src/glad.c.o: thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/src/glad.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glad-opengl-3.3-core && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/src/glad.c.o -MF CMakeFiles/glad.dir/src/glad.c.o.d -o CMakeFiles/glad.dir/src/glad.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glad-opengl-3.3-core/src/glad.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glad-opengl-3.3-core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/src/glad.c.o -MF CMakeFiles/glad.dir/src/glad.c.o.d -o CMakeFiles/glad.dir/src/glad.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glad-opengl-3.3-core/src/glad.c
 
 thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glad.dir/src/glad.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glad-opengl-3.3-core && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glad-opengl-3.3-core/src/glad.c > CMakeFiles/glad.dir/src/glad.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glad-opengl-3.3-core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glad-opengl-3.3-core/src/glad.c > CMakeFiles/glad.dir/src/glad.c.i
 
 thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glad.dir/src/glad.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glad-opengl-3.3-core && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glad-opengl-3.3-core/src/glad.c -o CMakeFiles/glad.dir/src/glad.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glad-opengl-3.3-core && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glad-opengl-3.3-core/src/glad.c -o CMakeFiles/glad.dir/src/glad.c.s
 
 # Object files for target glad
 glad_OBJECTS = \
@@ -109,6 +109,6 @@ thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/clean:
 .PHONY : thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/clean
 
 thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/depend:
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glad-opengl-3.3-core /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glad-opengl-3.3-core /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glad-opengl-3.3-core /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glad-opengl-3.3-core /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/depend
 

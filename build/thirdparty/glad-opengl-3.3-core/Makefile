@@ -57,7 +57,7 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New
+CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build

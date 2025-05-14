@@ -54,7 +54,7 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New
+CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build
@@ -63,14 +63,14 @@ CMAKE_BINARY_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/453-skeleton.dir/all
+all: CMakeFiles/bezier_visualizer.dir/all
 all: thirdparty/glad-opengl-3.3-core/all
 all: thirdparty/glfw-3.4/all
 all: thirdparty/fmt-11.0.2/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/453-skeleton.dir/codegen
+codegen: CMakeFiles/bezier_visualizer.dir/codegen
 codegen: thirdparty/glad-opengl-3.3-core/codegen
 codegen: thirdparty/glfw-3.4/codegen
 codegen: thirdparty/fmt-11.0.2/codegen
@@ -83,7 +83,7 @@ preinstall: thirdparty/fmt-11.0.2/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/453-skeleton.dir/clean
+clean: CMakeFiles/bezier_visualizer.dir/clean
 clean: thirdparty/glad-opengl-3.3-core/clean
 clean: thirdparty/glfw-3.4/clean
 clean: thirdparty/fmt-11.0.2/clean
@@ -168,38 +168,38 @@ thirdparty/glfw-3.4/src/clean: thirdparty/glfw-3.4/src/CMakeFiles/update_mapping
 .PHONY : thirdparty/glfw-3.4/src/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/453-skeleton.dir
+# Target rules for target CMakeFiles/bezier_visualizer.dir
 
 # All Build rule for target.
-CMakeFiles/453-skeleton.dir/all: thirdparty/fmt-11.0.2/CMakeFiles/fmt.dir/all
-CMakeFiles/453-skeleton.dir/all: thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/all
-CMakeFiles/453-skeleton.dir/all: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target 453-skeleton"
-.PHONY : CMakeFiles/453-skeleton.dir/all
+CMakeFiles/bezier_visualizer.dir/all: thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir/all
+CMakeFiles/bezier_visualizer.dir/all: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/all
+CMakeFiles/bezier_visualizer.dir/all: thirdparty/fmt-11.0.2/CMakeFiles/fmt.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target bezier_visualizer"
+.PHONY : CMakeFiles/bezier_visualizer.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/453-skeleton.dir/rule: cmake_check_build_system
+CMakeFiles/bezier_visualizer.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles 49
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/453-skeleton.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bezier_visualizer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles 0
-.PHONY : CMakeFiles/453-skeleton.dir/rule
+.PHONY : CMakeFiles/bezier_visualizer.dir/rule
 
 # Convenience name for target.
-453-skeleton: CMakeFiles/453-skeleton.dir/rule
-.PHONY : 453-skeleton
+bezier_visualizer: CMakeFiles/bezier_visualizer.dir/rule
+.PHONY : bezier_visualizer
 
 # codegen rule for target.
-CMakeFiles/453-skeleton.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Finished codegen for target 453-skeleton"
-.PHONY : CMakeFiles/453-skeleton.dir/codegen
+CMakeFiles/bezier_visualizer.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Finished codegen for target bezier_visualizer"
+.PHONY : CMakeFiles/bezier_visualizer.dir/codegen
 
 # clean rule for target.
-CMakeFiles/453-skeleton.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/453-skeleton.dir/build.make CMakeFiles/453-skeleton.dir/clean
-.PHONY : CMakeFiles/453-skeleton.dir/clean
+CMakeFiles/bezier_visualizer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bezier_visualizer.dir/build.make CMakeFiles/bezier_visualizer.dir/clean
+.PHONY : CMakeFiles/bezier_visualizer.dir/clean
 
 #=============================================================================
 # Target rules for target thirdparty/glad-opengl-3.3-core/CMakeFiles/glad.dir

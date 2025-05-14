@@ -53,7 +53,7 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New
+CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build
@@ -85,6 +85,6 @@ thirdparty/glfw-3.4/CMakeFiles/uninstall.dir/clean:
 .PHONY : thirdparty/glfw-3.4/CMakeFiles/uninstall.dir/clean
 
 thirdparty/glfw-3.4/CMakeFiles/uninstall.dir/depend:
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4 /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4 /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4 /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4 /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : thirdparty/glfw-3.4/CMakeFiles/uninstall.dir/depend
 

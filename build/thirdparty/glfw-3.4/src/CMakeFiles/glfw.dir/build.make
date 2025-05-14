@@ -53,7 +53,7 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New
+CMAKE_SOURCE_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build
@@ -73,298 +73,298 @@ thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/codegen:
 .PHONY : thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/codegen
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/context.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/context.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.o -MF CMakeFiles/glfw.dir/context.c.o.d -o CMakeFiles/glfw.dir/context.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/context.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.o -MF CMakeFiles/glfw.dir/context.c.o.d -o CMakeFiles/glfw.dir/context.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/context.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/context.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/context.c > CMakeFiles/glfw.dir/context.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/context.c > CMakeFiles/glfw.dir/context.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/context.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/context.c -o CMakeFiles/glfw.dir/context.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/context.c -o CMakeFiles/glfw.dir/context.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/init.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/init.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.o -MF CMakeFiles/glfw.dir/init.c.o.d -o CMakeFiles/glfw.dir/init.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/init.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.o -MF CMakeFiles/glfw.dir/init.c.o.d -o CMakeFiles/glfw.dir/init.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/init.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/init.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/init.c > CMakeFiles/glfw.dir/init.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/init.c > CMakeFiles/glfw.dir/init.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/init.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/init.c -o CMakeFiles/glfw.dir/init.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/init.c -o CMakeFiles/glfw.dir/init.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/input.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/input.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.o -MF CMakeFiles/glfw.dir/input.c.o.d -o CMakeFiles/glfw.dir/input.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/input.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.o -MF CMakeFiles/glfw.dir/input.c.o.d -o CMakeFiles/glfw.dir/input.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/input.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/input.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/input.c > CMakeFiles/glfw.dir/input.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/input.c > CMakeFiles/glfw.dir/input.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/input.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/input.c -o CMakeFiles/glfw.dir/input.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/input.c -o CMakeFiles/glfw.dir/input.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/monitor.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/monitor.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.o -MF CMakeFiles/glfw.dir/monitor.c.o.d -o CMakeFiles/glfw.dir/monitor.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/monitor.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.o -MF CMakeFiles/glfw.dir/monitor.c.o.d -o CMakeFiles/glfw.dir/monitor.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/monitor.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/monitor.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/monitor.c > CMakeFiles/glfw.dir/monitor.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/monitor.c > CMakeFiles/glfw.dir/monitor.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/monitor.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/monitor.c -o CMakeFiles/glfw.dir/monitor.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/monitor.c -o CMakeFiles/glfw.dir/monitor.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/platform.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/platform.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.o -MF CMakeFiles/glfw.dir/platform.c.o.d -o CMakeFiles/glfw.dir/platform.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/platform.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.o -MF CMakeFiles/glfw.dir/platform.c.o.d -o CMakeFiles/glfw.dir/platform.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/platform.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/platform.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/platform.c > CMakeFiles/glfw.dir/platform.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/platform.c > CMakeFiles/glfw.dir/platform.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/platform.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/platform.c -o CMakeFiles/glfw.dir/platform.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/platform.c -o CMakeFiles/glfw.dir/platform.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/vulkan.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/vulkan.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.o -MF CMakeFiles/glfw.dir/vulkan.c.o.d -o CMakeFiles/glfw.dir/vulkan.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/vulkan.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.o -MF CMakeFiles/glfw.dir/vulkan.c.o.d -o CMakeFiles/glfw.dir/vulkan.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/vulkan.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/vulkan.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/vulkan.c > CMakeFiles/glfw.dir/vulkan.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/vulkan.c > CMakeFiles/glfw.dir/vulkan.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/vulkan.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/vulkan.c -o CMakeFiles/glfw.dir/vulkan.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/vulkan.c -o CMakeFiles/glfw.dir/vulkan.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/window.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/window.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.o -MF CMakeFiles/glfw.dir/window.c.o.d -o CMakeFiles/glfw.dir/window.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/window.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.o -MF CMakeFiles/glfw.dir/window.c.o.d -o CMakeFiles/glfw.dir/window.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/window.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/window.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/window.c > CMakeFiles/glfw.dir/window.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/window.c > CMakeFiles/glfw.dir/window.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/window.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/window.c -o CMakeFiles/glfw.dir/window.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/window.c -o CMakeFiles/glfw.dir/window.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/egl_context.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/egl_context.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.o -MF CMakeFiles/glfw.dir/egl_context.c.o.d -o CMakeFiles/glfw.dir/egl_context.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/egl_context.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.o -MF CMakeFiles/glfw.dir/egl_context.c.o.d -o CMakeFiles/glfw.dir/egl_context.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/egl_context.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/egl_context.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/egl_context.c > CMakeFiles/glfw.dir/egl_context.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/egl_context.c > CMakeFiles/glfw.dir/egl_context.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/egl_context.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/egl_context.c -o CMakeFiles/glfw.dir/egl_context.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/egl_context.c -o CMakeFiles/glfw.dir/egl_context.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/osmesa_context.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/osmesa_context.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.o -MF CMakeFiles/glfw.dir/osmesa_context.c.o.d -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/osmesa_context.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.o -MF CMakeFiles/glfw.dir/osmesa_context.c.o.d -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/osmesa_context.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/osmesa_context.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/osmesa_context.c > CMakeFiles/glfw.dir/osmesa_context.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/osmesa_context.c > CMakeFiles/glfw.dir/osmesa_context.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/osmesa_context.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/osmesa_context.c -o CMakeFiles/glfw.dir/osmesa_context.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/osmesa_context.c -o CMakeFiles/glfw.dir/osmesa_context.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_init.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_init.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.o -MF CMakeFiles/glfw.dir/null_init.c.o.d -o CMakeFiles/glfw.dir/null_init.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_init.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.o -MF CMakeFiles/glfw.dir/null_init.c.o.d -o CMakeFiles/glfw.dir/null_init.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_init.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/null_init.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_init.c > CMakeFiles/glfw.dir/null_init.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_init.c > CMakeFiles/glfw.dir/null_init.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_init.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_init.c -o CMakeFiles/glfw.dir/null_init.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_init.c -o CMakeFiles/glfw.dir/null_init.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_monitor.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_monitor.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.o -MF CMakeFiles/glfw.dir/null_monitor.c.o.d -o CMakeFiles/glfw.dir/null_monitor.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_monitor.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.o -MF CMakeFiles/glfw.dir/null_monitor.c.o.d -o CMakeFiles/glfw.dir/null_monitor.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_monitor.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/null_monitor.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_monitor.c > CMakeFiles/glfw.dir/null_monitor.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_monitor.c > CMakeFiles/glfw.dir/null_monitor.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_monitor.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_monitor.c -o CMakeFiles/glfw.dir/null_monitor.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_monitor.c -o CMakeFiles/glfw.dir/null_monitor.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_window.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_window.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.o -MF CMakeFiles/glfw.dir/null_window.c.o.d -o CMakeFiles/glfw.dir/null_window.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_window.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.o -MF CMakeFiles/glfw.dir/null_window.c.o.d -o CMakeFiles/glfw.dir/null_window.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_window.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/null_window.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_window.c > CMakeFiles/glfw.dir/null_window.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_window.c > CMakeFiles/glfw.dir/null_window.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_window.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_window.c -o CMakeFiles/glfw.dir/null_window.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_window.c -o CMakeFiles/glfw.dir/null_window.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_joystick.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_joystick.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.o -MF CMakeFiles/glfw.dir/null_joystick.c.o.d -o CMakeFiles/glfw.dir/null_joystick.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_joystick.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.o -MF CMakeFiles/glfw.dir/null_joystick.c.o.d -o CMakeFiles/glfw.dir/null_joystick.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_joystick.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/null_joystick.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_joystick.c > CMakeFiles/glfw.dir/null_joystick.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_joystick.c > CMakeFiles/glfw.dir/null_joystick.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_joystick.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/null_joystick.c -o CMakeFiles/glfw.dir/null_joystick.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/null_joystick.c -o CMakeFiles/glfw.dir/null_joystick.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_time.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_time.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_time.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_time.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_time.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_time.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_time.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_time.c.o -MF CMakeFiles/glfw.dir/cocoa_time.c.o.d -o CMakeFiles/glfw.dir/cocoa_time.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_time.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_time.c.o -MF CMakeFiles/glfw.dir/cocoa_time.c.o.d -o CMakeFiles/glfw.dir/cocoa_time.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_time.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_time.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_time.c > CMakeFiles/glfw.dir/cocoa_time.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_time.c > CMakeFiles/glfw.dir/cocoa_time.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_time.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_time.c -o CMakeFiles/glfw.dir/cocoa_time.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_time.c -o CMakeFiles/glfw.dir/cocoa_time.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/posix_module.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/posix_module.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.o -MF CMakeFiles/glfw.dir/posix_module.c.o.d -o CMakeFiles/glfw.dir/posix_module.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/posix_module.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.o -MF CMakeFiles/glfw.dir/posix_module.c.o.d -o CMakeFiles/glfw.dir/posix_module.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/posix_module.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_module.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/posix_module.c > CMakeFiles/glfw.dir/posix_module.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/posix_module.c > CMakeFiles/glfw.dir/posix_module.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_module.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/posix_module.c -o CMakeFiles/glfw.dir/posix_module.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/posix_module.c -o CMakeFiles/glfw.dir/posix_module.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/posix_thread.c
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/posix_thread.c
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.o -MF CMakeFiles/glfw.dir/posix_thread.c.o.d -o CMakeFiles/glfw.dir/posix_thread.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/posix_thread.c
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.o -MF CMakeFiles/glfw.dir/posix_thread.c.o.d -o CMakeFiles/glfw.dir/posix_thread.c.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/posix_thread.c
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_thread.c.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/posix_thread.c > CMakeFiles/glfw.dir/posix_thread.c.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/posix_thread.c > CMakeFiles/glfw.dir/posix_thread.c.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_thread.c.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/posix_thread.c -o CMakeFiles/glfw.dir/posix_thread.c.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/posix_thread.c -o CMakeFiles/glfw.dir/posix_thread.c.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_init.m.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_init.m.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_init.m
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_init.m.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_init.m
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_init.m.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_init.m.o -MF CMakeFiles/glfw.dir/cocoa_init.m.o.d -o CMakeFiles/glfw.dir/cocoa_init.m.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_init.m
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_init.m.o -MF CMakeFiles/glfw.dir/cocoa_init.m.o.d -o CMakeFiles/glfw.dir/cocoa_init.m.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_init.m
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_init.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_init.m.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_init.m > CMakeFiles/glfw.dir/cocoa_init.m.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_init.m > CMakeFiles/glfw.dir/cocoa_init.m.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_init.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_init.m.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_init.m -o CMakeFiles/glfw.dir/cocoa_init.m.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_init.m -o CMakeFiles/glfw.dir/cocoa_init.m.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_joystick.m
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_joystick.m
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o -MF CMakeFiles/glfw.dir/cocoa_joystick.m.o.d -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_joystick.m
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o -MF CMakeFiles/glfw.dir/cocoa_joystick.m.o.d -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_joystick.m
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_joystick.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_joystick.m.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_joystick.m > CMakeFiles/glfw.dir/cocoa_joystick.m.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_joystick.m > CMakeFiles/glfw.dir/cocoa_joystick.m.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_joystick.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_joystick.m.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_joystick.m -o CMakeFiles/glfw.dir/cocoa_joystick.m.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_joystick.m -o CMakeFiles/glfw.dir/cocoa_joystick.m.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_monitor.m
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_monitor.m
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o -MF CMakeFiles/glfw.dir/cocoa_monitor.m.o.d -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_monitor.m
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o -MF CMakeFiles/glfw.dir/cocoa_monitor.m.o.d -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_monitor.m
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_monitor.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_monitor.m.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_monitor.m > CMakeFiles/glfw.dir/cocoa_monitor.m.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_monitor.m > CMakeFiles/glfw.dir/cocoa_monitor.m.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_monitor.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_monitor.m.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_monitor.m -o CMakeFiles/glfw.dir/cocoa_monitor.m.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_monitor.m -o CMakeFiles/glfw.dir/cocoa_monitor.m.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_window.m.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_window.m.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_window.m
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_window.m.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_window.m
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_window.m.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_window.m.o -MF CMakeFiles/glfw.dir/cocoa_window.m.o.d -o CMakeFiles/glfw.dir/cocoa_window.m.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_window.m
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_window.m.o -MF CMakeFiles/glfw.dir/cocoa_window.m.o.d -o CMakeFiles/glfw.dir/cocoa_window.m.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_window.m
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_window.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_window.m.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_window.m > CMakeFiles/glfw.dir/cocoa_window.m.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_window.m > CMakeFiles/glfw.dir/cocoa_window.m.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_window.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_window.m.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/cocoa_window.m -o CMakeFiles/glfw.dir/cocoa_window.m.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/cocoa_window.m -o CMakeFiles/glfw.dir/cocoa_window.m.s
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/nsgl_context.m.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/flags.make
-thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/nsgl_context.m.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/nsgl_context.m
+thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/nsgl_context.m.o: /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/nsgl_context.m
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/nsgl_context.m.o: thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/nsgl_context.m.o -MF CMakeFiles/glfw.dir/nsgl_context.m.o.d -o CMakeFiles/glfw.dir/nsgl_context.m.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/nsgl_context.m
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/nsgl_context.m.o -MF CMakeFiles/glfw.dir/nsgl_context.m.o.d -o CMakeFiles/glfw.dir/nsgl_context.m.o -c /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/nsgl_context.m
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/nsgl_context.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/nsgl_context.m.i"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/nsgl_context.m > CMakeFiles/glfw.dir/nsgl_context.m.i
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/nsgl_context.m > CMakeFiles/glfw.dir/nsgl_context.m.i
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/nsgl_context.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/nsgl_context.m.s"
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src/nsgl_context.m -o CMakeFiles/glfw.dir/nsgl_context.m.s
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src/nsgl_context.m -o CMakeFiles/glfw.dir/nsgl_context.m.s
 
 # Object files for target glfw
 glfw_OBJECTS = \
@@ -429,6 +429,6 @@ thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/clean:
 .PHONY : thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/clean
 
 thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/depend:
-	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/glfw-3.4/src /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/glfw-3.4/src /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src /Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : thirdparty/glfw-3.4/src/CMakeFiles/glfw.dir/depend
 

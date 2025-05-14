@@ -51,7 +51,7 @@ add_library(fmt::fmt STATIC IMPORTED)
 
 set_target_properties(fmt::fmt PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_11"
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include"
 )
 
 # Create imported target fmt::fmt-header-only
@@ -60,14 +60,14 @@ add_library(fmt::fmt-header-only INTERFACE IMPORTED)
 set_target_properties(fmt::fmt-header-only PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "FMT_HEADER_ONLY=1"
   INTERFACE_COMPILE_FEATURES "cxx_std_11"
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/453-skeleton-A3/453-skeleton-A3-New/thirdparty/fmt-11.0.2/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/thirdparty/fmt-11.0.2/include"
 )
 
-# Import target "fmt::fmt" for configuration "Debug"
-set_property(TARGET fmt::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+# Import target "fmt::fmt" for configuration ""
+set_property(TARGET fmt::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(fmt::fmt PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/fmt-11.0.2/libfmtd.a"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
+  IMPORTED_LOCATION_NOCONFIG "/Users/jarinthundathil/Code/Bezier_Curve_Visualizer_cpp/build/thirdparty/fmt-11.0.2/libfmt.a"
   )
 
 # This file does not depend on other imported targets which have
