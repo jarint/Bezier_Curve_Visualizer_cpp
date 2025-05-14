@@ -1,8 +1,6 @@
-# CPSC 453 Assignment 3
+# Bezier Curve visualizer
 
-Name: Jarin Thundathil
-UCID: 10149776
-W2025
+Author: Jarin Thundathil
 
 ## To Build
 in main folder:
@@ -10,7 +8,7 @@ in main folder:
     2. cd build
     3. cmake ..
     4. make
-    5. ./453-skeleton
+    5. ./bezier_visualizer
 
 on visual studio:
     1. hit play once CMakeLists.txt is linked.
